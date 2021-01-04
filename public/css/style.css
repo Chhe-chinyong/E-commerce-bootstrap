@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #e0dfdf71!important;
+    height: 1000px!important;
+   
+}
+.nav-item {
+    padding: 0 1rem;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+
+.cart {
+    width: 25px;
+}
+
+.include {
+    position: relative;
+    width: 30px;
+}
+
+#circle {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+    font-weight: regular;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+#e {
+    color: rgb(207, 45, 45);
+}
+
+#carouselExampleIndicators {
+    position: relative; 
+}
+.card .sign-in {
+    padding: 1.5rem;
+    display: none;
+}
+
+.sign-in button {
+    margin-top: 1rem;
+    padding: 0.3rem;
+}
+
+.card {
+    margin: 0rem;
+    border: 0;
+    overflow: hidden;
+    border-radius: 30%; 
+    height: 100%;
+}
+.card a {
+    color: gray;
+    padding: 0.5rem;
+    text-decoration: underline;
+}
+.card img {
+    cursor: pointer;
+}
+.item {
+    width: auto;
+}
+.acc {
+    height: 295px;
+}
+
+.card img {
+
+}
+
+.card h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.card button {
+    background-color: rgba(255, 173, 21, 0.993);
+    color: black;
+}
+.category {
+    position: absolute;
+    top:41%;
+    margin: 0 3rem;
+}
+
+
+.test 
+{
+    background-color: red;
+}
+.list-products {
+    margin-top: 1rem;
+}
+
+.list-products .container h2::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+    border-bottom: 5px solid rgb(207, 45, 45);
+}
+
+.product {
+    height: 90%;
+    margin: 1.5rem 0;
+    position: relative;
+}
+
+.product img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.description {
+    font-size: 1.2rem;
+}
+
+.price {
+    color: rgb(255, 78, 78);
+    font-weight: bold;
+}
+
+.product p {
+    margin-top: 1rem;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translateX(-100%);
+    background-color: rgba(247, 46, 46, 0.89);
+    color: white;
+    font-weight: bold;
+    width: 90px;
+}
+
+
+.head {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+footer .row{
+    background-color: rgba(255, 250, 250, 0.897);
+    padding: 1rem 0;
+}
+
+.col-md-3 ul li {
+    list-style: none;
+    padding: 0.2rem 0;
+    font-size: 12px;
+
+}
+
+.payment h2 {
+    padding: 1rem;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+.payment
+{
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.payment-img
+{
+  text-align: center;
+}
+
+.payment-img .img1{
+    width: 60px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.payment .img2 {
+    width: 100px;
+    height: auto;
+}
+
+.me {
+    text-align: center;
+    font-weight: lighter;
+    background-color: rgba(255, 255, 255, 0.753);
+    color: rgb(48, 48, 48);
+    padding: 0.5rem;
+}
+
+@media only screen and (max-width:770px)
+{
+    .card .sign-in {
+        display: block;
+        padding: 1.5rem;
+    }
+
+    .product p {
+        margin-top: 1rem;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        transform: translateX(-100%);
+        background-color: rgba(247, 46, 46, 0.89);
+        color: white;
+        font-weight: bold;
+        width: 65px;
+        font-size: 10px;
+    }
+
+    .list-products h2{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+    .item {
+        height: 40%;
+    }
+   
+    .acc {
+        height: 100px;
+    }
+
+    .card h2{
+        font-weight: bold;
+        font-size: 0.2rem;
+        padding: 0.5rem;
+    }
+
+    .card button {
+        padding: 0.1rem;
+        font-size: 0.6rem;
+    }
+
+   
+}
+@media only screen and (max-width:992px)
+{
+    #circle {
+        display: none;
+    }
+    .item {
+        height: 40%;
+    }
+   
+    .acc {
+        height: 190px;
+    }
+
+    .card h2{
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    footer .row {
+        margin: 2rem 0;
+    } 
+}
