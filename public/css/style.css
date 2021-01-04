@@ -74,12 +74,9 @@ body {
     width: auto;
 }
 .acc {
-    height: 295px;
+    height: 65%;
 }
 
-.card img {
-
-}
 
 .card h2{
     font-weight: bold;
@@ -228,10 +225,10 @@ footer .row{
     }
     .item {
         height: 40%;
-    }
-   
+    } 
+       
     .acc {
-        height: 100px;
+        height: 40%;
     }
 
     .card h2{
@@ -257,7 +254,7 @@ footer .row{
     }
    
     .acc {
-        height: 190px;
+        height: 40%;
     }
 
     .card h2{
